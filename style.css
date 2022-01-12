@@ -1,0 +1,21 @@
+#log {
+  width: 90%;
+  height: 60%;
+}
+
+#message {
+  width: 50%;
+}
+
+#my-id {
+  width: 50%;
+}
+
+#your-id {
+  width: 50%;
+}
+
+#error {
+  color: red;
+  font-size: large;
+}

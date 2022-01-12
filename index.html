@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <textarea id="log" rows="30"></textarea>
+    <br>
+    <input id="name" type="text" placeholder="your username"></input>
+    <input id="message" type="text" placeholder="your message"></input>
+    <br>
+    my-peer-id: <input id="my-id" type="text" value=""></input>
+    <br>
+    <input id="your-id" type="text" placeholder="paste other peer id here"></input>
+    <input id="connect" type="submit" value="connect"></input>
+    <br>
+    <p id="error"></p>
+
+    <script src="lib/peerjs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
