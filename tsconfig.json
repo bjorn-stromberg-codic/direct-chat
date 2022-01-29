@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "rootDir": "./src",
+    "moduleResolution": "Node",
+
+    "sourceMap": true,
+    "outDir": "./dist/ts/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "exclude": ["test", "bin"]
+}
